@@ -1,7 +1,7 @@
 # PROJECT TITLE: SIWES Placement Discovery Tool 
 
-**NAME:**   
-**MATRIC NUMBER: **   
+**NAME:** Oshodi Khaleed, philip chibuike divine, Special Ororo  
+**MATRIC NUMBER: ** 25/1058, 25/0172, 25/0624  
 **COURSE:**COS 209
 
 ## Introduction
