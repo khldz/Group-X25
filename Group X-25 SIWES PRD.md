@@ -68,3 +68,86 @@ I know apps like I-Tapp and general job boards exist. But they mostly just list 
 ##  Next Steps
 
 Before I start designing the UI, I want to gather one or two more stories from people who have already done SIWES to see if they also struggled with finding a company related to their course.  
+
+## 1. Functional Requirements (Functionalities)
+Functional requirements describe the specific tasks and operations the SIWES Placement Discovery Tool must be able to perform.
+1.1 Student Registration and Login
+- The system shall allow students to create an account using their name, email address, password, institution, and course of study.
+- The system shall allow registered students to log in and log out securely.
+- The system shall allow students to update their profile information.
+1.2 Search for SIWES Opportunities
+- The system shall allow students to search for companies and organizations offering SIWES placements.
+- The system shall allow students to search using company names, courses, industries, and locations.
+- The system shall display relevant search results based on the student's search criteria.
+1.3 Course-Based Filtering
+- The system shall allow students to select their specific course of study.
+- The system shall display only companies that accept students from the selected course.
+- The system shall show the departments and courses accepted by each listed organization.
+- The system shall support multiple courses where an organization accepts students from different academic departments.
+1.4 Location-Based Filtering
+- The system shall allow students to filter SIWES opportunities by state.
+- The system shall allow students to filter opportunities by Local Government Area (LGA).
+- The system shall display the physical address of each organization.
+- The system shall allow students to find opportunities within their preferred locations.
+1.5 Company Information and Details
+- The system shall display the name of each registered organization.
+- The system shall display the organization's address and contact information.
+- The system shall display the courses and departments accepted.
+- The system shall display the SIWES application requirements.
+- The system shall indicate whether the organization provides a stipend.
+- The system shall display available information about the organization's SIWES application process.
+1.6 Report Outdated Information
+- The system shall allow users to report incorrect or outdated company information.
+- The system shall allow users to select the type of information they believe is incorrect.
+- The system shall allow the administrator to review submitted reports and update company information.
+1.7 Administrator Dashboard
+- The system shall allow administrators to log in to an administrative dashboard.
+- The administrator shall be able to add new companies and organizations.
+- The administrator shall be able to edit or delete existing company information.
+- The administrator shall be able to update the courses accepted by each organization.
+- The administrator shall be able to manage student-submitted reports about outdated information.
+- The administrator shall be able to manage the list of available courses, states, and LGAs.
+1.8 Search Results and Navigation
+- The system shall display search results in an organized format.
+- The system shall allow students to view the full details of a selected organization.
+- The system shall display a helpful message when no matching SIWES opportunities are found.
+- The system shall allow students to return to their search results without starting a new search.
+
+## 2. Non-Functional Requirements (Non-Functionalities)
+Non-functional requirements describe how the system should operate, including its performance, security, reliability, usability, and accessibility.
+2.1 Usability
+- The system shall have a simple, user-friendly interface that students can easily understand.
+- The system shall provide clear navigation between different pages.
+- Students should be able to search for SIWES opportunities without requiring technical knowledge.
+- Company information shall be presented in a clear and organized format.
+2.2 Performance
+- The system should display search results within 3–5 seconds under normal operating conditions.
+- The system should load pages quickly, even when multiple companies are listed.
+- The system should handle multiple students searching for opportunities simultaneously.
+2.3 Security
+- The system shall protect students' personal information.
+- Passwords shall be stored securely using appropriate password hashing.
+- Only authorized administrators shall be able to access the administrative dashboard.
+- The system shall validate user inputs to prevent unauthorized or harmful data submissions.
+2.4 Reliability
+- The system should be available whenever students need to search for SIWES opportunities.
+- The system should display accurate company information based on the latest verified updates.
+- The system should handle errors without crashing.
+- The system should provide appropriate error messages when an operation fails.
+2.5 Maintainability
+- The system should be designed in a way that allows developers to update and maintain it easily.
+- New companies, courses, and locations should be added without rebuilding the entire system.
+- The system should allow administrators to update existing information when organizations change their SIWES policies.
+2.6 Compatibility
+- The website should work on popular web browsers such as Google Chrome, Microsoft Edge, Firefox, and Safari.
+- The system should be accessible on smartphones, tablets, and desktop computers.
+- The interface should adjust properly to different screen sizes.
+2.7 Scalability
+- The system should support an increasing number of students and organizations as it grows.
+- The database should accommodate additional courses, companies, states, and LGAs.
+- The system should be capable of expanding from one faculty to other faculties and institutions.
+2.8 Data Accuracy
+- Company information should be reviewed and updated regularly.
+- The system should clearly indicate when company information was last verified.
+- The system should distinguish between verified information and information awaiting verification.
+- Administrators should be able to investigate and correct reported inaccurate information.
