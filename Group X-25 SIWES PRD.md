@@ -151,3 +151,11 @@ Non-functional requirements describe how the system should operate, including it
 - The system should clearly indicate when company information was last verified.
 - The system should distinguish between verified information and information awaiting verification.
 - Administrators should be able to investigate and correct reported inaccurate information.
+
+## MoSCoW for the SIWES Project
+Here is how I recommend prioritizing your project features.
+Priority	SIWES Features
+Must Have	Search for companies, course-based filtering, location-based filtering, company information, admin management of listings.
+Should Have	Student registration, reporting outdated information, last verified date, stipend information.
+Could Have	Verified company badges, saved/favourite companies, map view of company locations.
+Won't Have	Application tracking, messaging, CV builder, online applications.
